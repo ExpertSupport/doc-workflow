@@ -12,3 +12,8 @@ Do things!
 
 Denny is working on the list above. Note the addition of a new step above. "Create a new file..."
 
+New files coming to the playground
+
+* installations.md = List of required and optional installations and configurations that everybody needs to do to set up the working enviornment.
+* learning-tasks.md = List of resources, exercises, and thigs to do to learn about the Angular tool stack.
+
