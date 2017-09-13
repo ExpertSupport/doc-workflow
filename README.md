@@ -18,3 +18,25 @@ New files coming to the playground:
 * learning-tasks.md = List of resources, exercises, and thigs to do to learn about the Angular tool stack.
 * angular-workflow.md = Overview of the workflow associated with working on the Angular doc set.
 
+Hello World!
+
+===============
+
+Adding things.
+
+
+===============
+
+Jack be nimble, Jack be quick.
+Jack jump over the candlestick.
+
+===============
+
+Wisdom is the booby prize
+We get after we've been unwise.
+
+==============
+
+Run away!!!
+
+==============
