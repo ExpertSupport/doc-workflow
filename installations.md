@@ -62,8 +62,8 @@ emacs is also an option. We haven't explored that option yet.
 1. (Mac) Edit the file, **Get file name from KW** ??
 
 `[user]
-    email = kapunahelewong@gmail.com
-    name = Kapunahele Wong
+    email = name@host.com
+    name = Your Name
 [core]
     editor = nano
 `
