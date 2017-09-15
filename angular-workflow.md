@@ -89,9 +89,11 @@ This will show you the files in green that are now staged for the next commit.
 1. `git commit -m "docs(aio): your-commit-message"
 This commits all of your changes in the current local branch. 
 1. `git push`
-This pushes your changes to the corresponding branch at GitHub. If you have not yet created that corresponding branch, you might need to do `git push -upstream ...` The error message will contain the exact syntax for the command just as you should enter it. 
+This pushes your changes to the corresponding branch at GitHub. If that branch doesn't exist up on GitHub yet, you need to do `git push --set-upstream origin name-of-your-branch`. The error message will contain the exact syntax for the command just as you should enter it. 
 
-**Note: KW's story about Squashing goes here somewhere.**
+### Step 3.6 - Squashing
+
+
 
 ## Section 4 - Daily Shut down
 
