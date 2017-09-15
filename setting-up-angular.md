@@ -1,6 +1,8 @@
 
 # Angular.io local setup
 
+Follow these steps when you are setting up the repo locally for the first time.
+
 **In terminal:**
 
 1. `git clone the-angular-repo-you-want-to-clone` 
