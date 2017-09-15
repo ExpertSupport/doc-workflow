@@ -7,11 +7,16 @@ This is often the case when you’ve been working on a PR for a while and it’s
 In terminal:
 1. `git rebase -i HEAD~n`, where n is the number of commits you want to squash. For example, I would like to squash the following commits, which I can see with git log --oneline: 
 ![Image of git log](img/gitlog.png)
-In this case, to squash the first three, type git rebase -i HEAD~3. That brings you to your default editor, in this case Nano:
+In this case, to squash the first three, type `git rebase -i HEAD~3`. That brings you to your default editor, in this case Nano:
+![Image nano](img/nano1.png)
 1. Next, pick the first one and fixup the rest as follows:
+![Image of fixup](img/nano2.png)
 1. This step is for Nano. Press Ctrl+X to exit. Type y for yes to the following question which will appear near the menu at the bottom: 
-1. This step is for Nano. Press Enter at the next prompt that will resemble this:Here is the success message: If you don’t get this success message, contact Kapunahele for help.
+![Image of fixup](img/nano3.png)
+1. This step is for Nano. Press Enter at the next prompt that will resemble this:Here is the success message: 
+![Image of fixup](img/success-msg.png) If you don’t get this success message, contact Kapunahele for help.
 1. You can check that your commits were squashed with `git log --oneline`.
+![Image of fixup](img/squash-undone.png)
 1. `git push` 
 
 Undo a Squash
