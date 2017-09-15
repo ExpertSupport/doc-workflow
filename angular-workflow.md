@@ -13,33 +13,29 @@ For purposes of this doc, a story is a logical collection of documentation tasks
 
 ### Step 1.1: Fork the angular/angular repo
 
-This creates a repo in your account. e.g. dennispbrown/angular
+This creates a repo in your account. e.g. dennispbrown/angular by creating a copy of angular/angular. You have to fork someone else's repo you want to work on because you have read only permissions on it by default. The owner can give you 
+more permissions, but working with the least possible is the safest route.
 
-?? Add how.
+### Step 1.2: Clone the repo
 
-### Step 1.2: Create a branch in your repo
+This creates a copy of the repo, aka a clone, locally that you'll use for this story. 
 
-This creates a branch (at GitHub) that you'll use for this story. 
+### Step 1.3: Create a branch
 
-### Step 1.3: Clone the branch
+This creates a local copy of a branch for you to work in. This isn't on GitHub until you push up later. 
 
-This creates a local copy of the GitHub branch. 
-
-?? Add how. 
 
 ## Section 2: Daily Setup
 
 This section assumes that you'll work on a story (branch) over a few days. 
 
-### Step 2.1: Rebase the ??
+### Step 2.1: Rebase your branch(es)
 
-This makes sure you have the most recent changes to ??
-
-?? add how. **NOTE: Add KW's story about rebasing here?**
+This makes sure you have the most recent changes that are in master in your feature branches. You do this because you want your branches to be as close as possible to the master branch with the only differences being what you are working on. In order to merge your branch with the master branch, your branch will have to be up-to-date. If it isn't, the owner of the repo will ask you to rebase. If you've been rebasing all along, it should be an easy task. If you haven't, it will be more involved (read: rebase often!!).
 
 ### Step 2.2: Run yarn
 
-This turns on the compiler that watches your local folder for changes, translates the markedown to html, and displays the result in your browser.
+This turns on the compiler that watches your local folder for changes, translates the markdown to html, and displays the result in your browser.
 
 ?? add how
 
@@ -85,17 +81,19 @@ This is just the normal stuff of "I wonder how this looks rendered."
 When you're ready to quit for a while, push your changes up to GitHub.
 
 1. (Optional) `git status`
-This will show you what you've changes, but have not yet staged.
+This will show you what you've changed, and what state it's in. If it's red, git sees it, but you need to stage it before you can commit it. 
 1. `git add --all`
 This stages all of the files you changed to be ready for the commit.
 1. (Optional) `git status`
-This will show you the files that are now staged for the next commit.
+This will show you the files in green that are now staged for the next commit.
 1. `git commit -m "docs(aio): your-commit-message"
 This commits all of your changes in the current local branch. 
 1. `git push`
-This pushes your changes to the corresponding branch at GitHub. If you have not yet created that corresponding branch, you might need to do `git push -upstream ...` The error message will contain the syntax for the command. The one here is from memory and is probably wrong.
+This pushes your changes to the corresponding branch at GitHub. If that branch doesn't exist up on GitHub yet, you need to do `git push --set-upstream origin name-of-your-branch`. The error message will contain the exact syntax for the command just as you should enter it. 
 
-**Note: KW's story about Squashing goes here somewhere.**
+### Step 3.6 - Squashing
+
+
 
 ## Section 4 - Daily Shut down
 
