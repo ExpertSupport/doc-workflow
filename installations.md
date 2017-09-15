@@ -19,10 +19,10 @@
 
 Node.js is a Javascript interpreter. It enables you to run JS programs locally on your workstation. 
 
-npm is the Node Package Manager. It enables easy installation of pre-packaged programs. In particular, it is used to install a local copy of Angular.
+`npm` is the Node Package Manager. It enables easy installation of pre-packaged programs. In particular, it is used to install the dependencies for your local copy of Angular.
 
 * Go to [the npm installation page](https://www.npmjs.com/get-npm?utm_source=house&utm_medium=homepage&utm_campaign=free%20orgs&utm_term=Install%20npm)
-* Follow the directions on that page
+* Follow the directions on that page.
 
 ### (Mac only) Install HomeBrew
 
@@ -51,15 +51,17 @@ You probably will want to customize various settings in your environment. Many s
 
 ### Configure a terminal editor, and your email address
 
-You will need a terminal editor for "squashing" a bunch of commits into one. ?? And maybe for other reasons. ??
+You will need a terminal editor for various git tasks such as squashing multiple commits into one or changing a commit message.
 
 vim is the default editor. If you know the vim commands, you can leave it as is.
 
-KW recommends nano. It includes the basic editing commands on the screen. She finds it easier than vim.
+Alternatively, you can use Nano. It includes the basic editing commands on the screen in case you forget them.
 
 emacs is also an option. We haven't explored that option yet.
 
-1. (Mac) Edit the file, **Get file name from KW** ??
+You can use any editor you like, including non-terminal ones like Visual Studio Code or Sublime Text. A terminal editor is easy because you stay in the same window.
+
+1. (Mac) Edit `.gitconfig` in your home directory with the following:
 
 `[user]
     email = name@host.com
@@ -67,8 +69,6 @@ emacs is also an option. We haven't explored that option yet.
 [core]
     editor = nano
 `
-
-
 
 
 ## Optional installations and configurations
