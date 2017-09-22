@@ -18,7 +18,7 @@ To learn the git/GitHub workflow, do the following:
 * Add two links to your file. Make one link internal to the repo and one external. 
 * Push up.
 * Create a PR.
-* Try squashing a few commits, then push up to your branch again and look at your PR. You should see your squashed commit there.
+* Try squashing a few commits, then push up to your branch again and look at your PR. You should see your squashed commit there. For instructions on squashing, see [Squashing](rebasing.md).
 
 
 
