@@ -1,42 +1,24 @@
 # GitHub playground
 
-Do things!
+The playground is a place for new contributors to the Angular docs who may not have experience with git/GitHub, and who need instructions on how to download and run angular.io.
+
+If you're unsure about how to complete the below steps, see [Learning Tasks](learning-tasks.md).
+
+## Required learning tasks
+
+To learn the git/GitHub workflow, do the following:
 
 * Fork this repo.
 * `git clone` your version.
 * Create a branch.
 * Make some edits.
 * Create a new file (markdown) and add to your local repo.
+* Add a picture to your file (add your picture to the `img` directory).
+* Add a code block to your file. Try HTML or javascript. Specify the language of your code block so that it has syntax highlighting.
+* Add two links to your file. Make one link internal to the repo and one external. 
 * Push up.
 * Create a PR.
 
-Denny is working on the list above. Note the addition of a new step above. "Create a new file..."
-
-New files coming to the playground:
-
-* installations.md = List of required and optional installations and configurations that everybody needs to do to set up the working enviornment.
-* learning-tasks.md = List of resources, exercises, and thigs to do to learn about the Angular tool stack.
-* angular-workflow.md = Overview of the workflow associated with working on the Angular doc set.
-
-Hello World!
-
-===============
-
-Adding things.
 
 
-===============
 
-Jack be nimble, Jack be quick.
-Jack jump over the candlestick.
-
-===============
-
-Wisdom is the booby prize
-We get after we've been unwise.
-
-==============
-
-Run away!!!
-
-==============
