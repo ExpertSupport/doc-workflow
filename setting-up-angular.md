@@ -34,4 +34,4 @@ After working, go back to the third tab/window you’d opened in terminal and ad
 1. `git push` (You’ll get an error the first time you try this if you don’t have a branch on GitHub that mirrors this one you’re working on. Just use the command that the error suggests.)
 
 
-_Note_: Always view your work in the browser to make sure nothing breaks from your edits. As you work, toggle over to Chrome frequently so that if the page does break, you know which edit might have caused the issue.
+_Note: Always view your work in the browser to make sure nothing breaks from your edits. As you work, toggle over to Chrome frequently so that if the page does break, you know which edit might have caused the issue._

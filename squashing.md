@@ -26,8 +26,9 @@ A hard reset in git is a forcible way to return to an earlier state, which means
 1. `git reflog`
 1. `git reset --hard HEAD@{n}`, where `n` is the number of the entry you want to go back to.
 
-Example:
-1.To undo the squash in the last section, do the following:
+**Example:**
+
+To undo the squash in the last section, do the following:
 1. `git reflog` shows the details of the squash below (the entries with `rebase -i` are the commits that were squashed): ![Image of reflog](img/gitreflog.png)
 In this case, to go back to a pre-squash state, use HEAD@{4}: 
 1. `git reset --hard HEAD@{4}`
