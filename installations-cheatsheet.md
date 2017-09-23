@@ -1,4 +1,4 @@
-# Set up cheatsheet
+# Installations cheatsheet
 
 This document is short list of links to help you set up your environment for editing the docs. Use this reference if you don't need the explanation in [installations](installations.md).
 
