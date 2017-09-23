@@ -48,7 +48,7 @@ This assumes you installed HomeBrew.
 
 You probably will want to customize various settings in your environment. Many such settings are in hidden files. By default, the Mac does not show hidden files.
 
-1. (Mac) In terminal enter the following command, `defaults write com.apple.finder AppleShowAllFiles YES`
+1. (Mac) In terminal enter the following command, `defaults write com.apple.finder AppleShowAllFiles YES` and press enter. You might need to restart Finder with the follow up command `killall Finder`.
 
 1. (Windows)
 
@@ -74,3 +74,8 @@ You can use any editor you like, including non-terminal ones like Visual Studio 
     editor = nano
 ```
 
+## `sudo` and `EACCESS` errors
+
+On a mac, `sudo` is a way to make your OS execute a command when you don't technically have permissions to do it (though you do have to have permissions to use the `sudo` command). If you find yourself having to use it frequently, you should consider making some changes because later on down the road, it can potentially cause problems. You'll know this is you when you keep getting `EACCES` errors. To fix this, see [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions) at the `npm` site.
+
+You shouldn't have to use `sudo` for anything with the Angular repo, so even if you get one of these errors, go do this fix.

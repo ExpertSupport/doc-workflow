@@ -1,6 +1,6 @@
 # GitHub playground
 
-The playground is a place for new contributors to the Angular docs who may not have experience with git/GitHub, and who need instructions on how to download and run angular.io.
+The playground is a place for new contributors to the Angular docs who may not have experience with git/GitHub, and who need instructions on how to download and run angular.io, can practice the basics of the workflow.
 
 If you're unsure about how to complete the below steps, see [Learning Tasks](learning-tasks.md).
 
@@ -18,7 +18,7 @@ To learn the git/GitHub workflow, do the following:
 * Add two links to your file. Make one link internal to the repo and one external. 
 * Push up.
 * Create a PR.
-* Try squashing a few commits, then push up to your branch again and look at your PR. You should see your squashed commit there. For instructions on squashing, see [Squashing](rebasing.md).
+* Try squashing a few commits, then push up to your branch again and look at your PR. You should see your squashed commit there. For instructions on squashing, see [Squashing](squashing.md).
 
 
 
