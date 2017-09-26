@@ -7,7 +7,7 @@ Follow these steps when you are setting up the repo locally for the first time.
 
 1. `git clone the-angular-repo-you-want-to-clone` 
 1. `cd angular`
-1. `npm install`
+1. `yarn setup`
 1. `cd aio`
 1. `yarn setup`
 1. `yarn start`
