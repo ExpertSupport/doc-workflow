@@ -4,9 +4,9 @@ To create documentation on the GitHub platform, you need to be familiar with the
 
 This page shows you few examples of using the Markdown syntax to:
 
-* Add an image to your doc
-* Add a code block in your doc
-* Add an external link in your doc
+* Add an image to your doc.
+* Add a code block in your doc.
+* Add an external link in your doc.
 
 For a full list of all the Markdown syntax, see [Writing on GitHub](https://help.github.com/categories/writing-on-github/).
 
