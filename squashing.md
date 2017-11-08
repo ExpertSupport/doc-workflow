@@ -11,7 +11,7 @@ In this case, to squash the first three, type `git rebase -i HEAD~3`. That bring
 ![Image nano](img/nano1.png)
 1. Next, pick the first one and fixup the rest as follows:
 ![Image of fixup](img/nano2.png)
-1. **This step is for Nano. If you're not using Nano, just be sure to save and exit your editor.** Press Ctrl+X to exit. Type y for yes to the following question which will appear near the menu at the bottom: 
+1. **This step is for Nano. If you're not using Nano, just be sure to save and exit your editor.** Press Ctrl+X to exit. _If your editor is VIM, exit Insert mode with ESC, then type :wq to save and quit_ Type y for yes to the following question which will appear near the menu at the bottom: 
 ![Image of exit](img/nano3.png)
 1. **This step is for Nano.** Press Enter at the next prompt. It resembles this:![Nano File to write prompt](img/nano-file-to-write.png) Here is the success message: 
 ![Image of success](img/success-msg.png) If you don’t get this success message, contact Kapunahele for help.
