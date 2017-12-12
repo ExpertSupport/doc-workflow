@@ -3,8 +3,6 @@ This document covers the basic scenarios you will find while contributing to Ang
 
 ## Scenario 1. What is my Git workflow when I am working alone on documentation?
 
-***
-
 ### Step 1: Clone the repo you want to make contrubutions to.
 In Terminal:
 ```sh
@@ -69,18 +67,14 @@ $ git push --force
 
 ## Scenario 2: I am working on a new file. How do I add it to the ExpertSupport/angular?
 
-***
  You can add a new file by [pushing](daily-work.md#push)
   your file up to ExpertSupport/angular, which is a fork of the angular/angular repo.
 
 ## Scenario 3: As I work on a file, how do I ensure that my changes are safe and backed up?
 
-***
 You back up your files by regularly [pushing](daily-work.md#push) your commits to a remote repository. Commit and push cycle ensures that you can retrieve your changes even when a problem with your local repo causes loss of your work.
 
 ## Scenario 4: A Writer asked me to review his/her work, which he/she has pushed to ExpertSupport/angular. How do I do that?
-
-***
 
 ### Step 1. *Clone* ExpertSupport/angular to your local.
  
@@ -120,7 +114,6 @@ _Note_: Before pushing your changes back to your peer's branch, check with him/h
 
 
 ## Scenario 5: How do I get my work reviewed by engineers via github?
-***
 
 You need to  push your changes to ExpertSupport/angular and then submit a [PR](#PR) to angular/angular repo and tag all reviewers. PR should have [WIP] prefix in title/description as shown below:
 
@@ -129,7 +122,6 @@ You need to  push your changes to ExpertSupport/angular and then submit a [PR](#
 
 ## <a id='squash'>Scenario 6: I want to clean my commit history before pushing changes or submitting a PR. How do I do that?</a>
 
-***
 To clean your commit history when you are done with your changes, squash them to a single commit.
 
 To squash the last N commits into one, do the following:
