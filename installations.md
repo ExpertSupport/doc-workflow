@@ -1,15 +1,13 @@
-# Set up your working environment
+# Required installations and configurations
 
-## Required installations and configurations
-
-### Create an account at GitHub
+## Create an account at GitHub
 * Go to https://github.com/. 
 * If you have an account, log in. If you don't have an account, create one and log in.
 
-### Install git
+## Install git
 * [Git](https://git-scm.com/). This is a local install that allows you to create and maintain git projects.
 
-### Install Visual Studio Code 
+## Install Visual Studio Code 
 * Go to https://code.visualstudio.com/. 
 * Download and install VSCode. 
 * Put it in your Dock (mac) or ??(windows)
@@ -18,7 +16,7 @@
 * (mac) Go to https://code.visualstudio.com/docs/setup/mac
 * (windows) Go to ??
 
-### Install node and npm
+## Install node and npm
 
 Node.js is a Javascript interpreter. It enables you to run JS programs locally on your workstation. 
 
@@ -33,7 +31,7 @@ Node.js is a Javascript interpreter. It enables you to run JS programs locally o
 
 1. In Terminal, `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-### Install Yarn
+## Install Yarn
 
 [Yarn](https://yarnpkg.com/en/) is a package manager that in the case of the angular repo, enables automatic translation of your Markdown files to HTML for display. With Yarn watching your files, you can edit in Markdown and immediately see the result in your browser. The [Yarn installation page](https://yarnpkg.com/lang/en/docs/install/) contains more info, including the instructions for installation on other operating systems.
 
@@ -44,7 +42,7 @@ This assumes you installed HomeBrew.
 1. (Windows) ??
 
 
-### Configure your Finder/Explorer to show hidden files
+## Configure your Finder/Explorer to show hidden files
 
 You probably will want to customize various settings in your environment. Many such settings are in hidden files. By default, the Mac does not show hidden files.
 
@@ -52,7 +50,7 @@ You probably will want to customize various settings in your environment. Many s
 
 1. (Windows)
 
-### Configure a terminal editor, and your email address
+## Configure a terminal editor, and your email address
 
 You will need a terminal editor for various git tasks such as squashing multiple commits into one or changing a commit message.
 

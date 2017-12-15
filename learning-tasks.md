@@ -9,7 +9,7 @@ To work on the Angular documentation, you need a foundation in the tools.
 
 ## Set up your environment
 
-* Install git, node, npm, yarn. For details on how to do this, see [Installations](installations.md).
+* Install git, node, npm, yarn. For details on how to do this, see [Setting Up Your Work Environment](setting-up-env.md).
 
 ## Get familiar with the command line
 
