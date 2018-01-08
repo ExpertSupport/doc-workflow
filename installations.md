@@ -14,7 +14,6 @@
 
 ### Configure the PATH variable so you can invoke VSCode from the terminal
 * (mac) Go to https://code.visualstudio.com/docs/setup/mac
-* (windows) Go to ??
 
 ## Install node and npm
 
@@ -35,20 +34,16 @@ Node.js is a Javascript interpreter. It enables you to run JS programs locally o
 
 [Yarn](https://yarnpkg.com/en/) is a package manager that in the case of the angular repo, enables automatic translation of your Markdown files to HTML for display. With Yarn watching your files, you can edit in Markdown and immediately see the result in your browser. The [Yarn installation page](https://yarnpkg.com/lang/en/docs/install/) contains more info, including the instructions for installation on other operating systems.
 
-1. (Mac) In Terminal enter the following command, `brew install yarn`
+* (Mac) In Terminal enter the following command, `brew install yarn`
 
 This assumes you installed HomeBrew.
-
-1. (Windows) ??
 
 
 ## Configure your Finder/Explorer to show hidden files
 
 You probably will want to customize various settings in your environment. Many such settings are in hidden files. By default, the Mac does not show hidden files.
 
-1. (Mac) In terminal enter the following command, `defaults write com.apple.finder AppleShowAllFiles YES` and press enter. You might need to restart Finder with the follow up command `killall Finder`.
-
-1. (Windows)
+* (Mac) In terminal enter the following command, `defaults write com.apple.finder AppleShowAllFiles YES` and press enter. You might need to restart Finder with the follow up command `killall Finder`.
 
 ## Configure a terminal editor, and your email address
 
