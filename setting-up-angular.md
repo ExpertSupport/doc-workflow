@@ -5,8 +5,8 @@ Follow these steps when you are setting up the `ExpertSupport/angular` repo loca
 
 **In terminal:**
 
-1. `git clone ExpertSupport/angular` 
-1. `cd angular-master`
+1. `git clone the-angular-repo-you-want-to-clone`
+1. `cd angular`
 1. `yarn`
 1. `cd aio`
 1. `yarn setup`
